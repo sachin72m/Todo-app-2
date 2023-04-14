@@ -1,0 +1,50 @@
+.taskContainer {
+  width: 90%;
+  height: 30%;
+  background-color: aqua;
+  margin: auto;
+  box-shadow: 6px 6px 4px rgb(124, 155, 155);
+  margin-bottom: 20px;
+}
+
+.taskContainer form {
+  height: 100%;
+  margin: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.taskContainer form label {
+  font-size: 1.7rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}
+
+.taskContainer form input {
+  padding: 0.2rem;
+  font-size: 1rem;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 0.3px;
+}
+.taskContainer form input:focus {
+  border: none;
+  box-shadow: 3px 3px 2px rgb(124, 155, 155) inset;
+}
+
+.taskContainer form button {
+  font-size: 1.4rem;
+  padding: 0.4rem;
+  border-radius: 10px;
+  letter-spacing: 0.4px;
+  background-color: red;
+  color: white;
+  font-weight: 700;
+  box-shadow: 6px 6px 4px rgb(124, 155, 155);
+}
+
+.taskContainer form button:hover {
+  cursor: pointer;
+  box-shadow: 4px 4px 3px black inset;
+}

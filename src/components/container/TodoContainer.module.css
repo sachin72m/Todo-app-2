@@ -1,0 +1,17 @@
+.container {
+  width: 80vw;
+  height: 90vh;
+  margin: auto;
+  margin-top: 20px;
+  background-color: aliceblue;
+  box-shadow: 10px 10px 7px rgb(138, 126, 126);
+}
+
+.container h1 {
+  text-align: center;
+  color: rgba(92, 85, 85, 0.719);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2.8rem;
+  font-weight: 600;
+  text-shadow: 5px 5px lightgray;
+}
